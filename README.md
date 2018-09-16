@@ -1,5 +1,4 @@
-# Predicting the Ideological Direction of Supreme Court Decisons:
-# Ensembles of Justice-Based Models vs. Simple Case-Based Models
+# Predicting the Ideological Direction of Supreme Court Decisons: Ensembles of Justice-Based Models vs. Simple Case-Based Models
 
 ## Summary of Findings
 
