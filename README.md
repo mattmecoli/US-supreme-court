@@ -38,4 +38,6 @@ These records are reproduced in a CSV output file.  For each model we also expor
 
 Harold J. Spaeth, Lee Epstein, et al. 2018 Supreme Court Database, Version 2018 Release 1. URL: http://Supremecourtdatabase.org
 
-Katz DM, Bommarito MJ, II, Blackman J (2017) A general approach for predicting the behavior of the Supreme Court of the United States. PLoS ONE 12(4): e0174698. https://doi. org/10.1371/journal.pone.0174698
+Katz DM, Bommarito MJ, II, Blackman J (2017) A general approach for predicting the behavior of the Supreme Court of the United States. PLoS ONE 12(4): e0174698. https://doi.org/10.1371/journal.pone.0174698
+
+Poisson binomial Python library: https://github.com/tsakim/poibin
