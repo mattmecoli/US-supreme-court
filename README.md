@@ -1,4 +1,4 @@
-# Predicting the Ideological Direction of Supreme Court Decisons: Ensembles of Justice-Based Models vs. Simple Case-Based Models
+# Predicting the Ideological Direction of Supreme Court Decisions: Ensemble of Justices vs. Unified Case-Based Model
 
 ## Summary of Findings
 
@@ -8,7 +8,7 @@ By applying a range of supervised machine-learning techniques in scikit-learn - 
 
 ![SCDB_landing](/img/SCDB_landing.png)
 
-We are deeply indebted to the source of our labeled data, http://supremecourtdatabase.org, which has complete, expertly coded and labeled data about US Spreme Court cases dating back to 1791.  We used the "modern" version of the database, with cases since 1946, since the Court functioned quite differently in earlier periods.  The modern database has two different versions, and we use both.  The case-centered database contains 8,893 cases (as rows), each of which is described in 53 columns.  The justice-centered database contains the same information, but each case is split into 5 to 9 rows, one for each justice who voted in the case (usually 9 of course, so there are 79,612 total rows).  The justice-centered database contains 8 extra columns with justice names and their votes, whether he or she wrote the majority opinion etc.
+We are deeply indebted to the source of our labeled data, http://supremecourtdatabase.org, which has complete, expertly coded and labeled data about US Supreme Court cases dating back to 1791.  We used the "modern" version of the database, with cases since 1946, since the Court functioned quite differently in earlier periods.  The modern database has two different versions, and we use both.  The case-centered database contains 8,893 cases (as rows), each of which is described in 53 columns.  The justice-centered database contains the same information, but each case is split into 5 to 9 rows, one for each justice who voted in the case (usually 9 of course, so there are 79,612 total rows).  The justice-centered database contains 8 extra columns with justice names and their votes, whether he or she wrote the majority opinion etc.
 
 A small part of the raw data:
 ![raw_data](/img/raw_data.png)
@@ -43,6 +43,7 @@ Results for case_centered (unified) model:
 Part of a single-justice-based model's results:
 ![justice_based](/img/justice_based.png)
 
+Results for ensemble-based model:
 ![ensemble_based](/img/ensemble_based.png)
 
 ## Note on Data Leakage
