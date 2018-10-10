@@ -43,7 +43,7 @@ Results for case_centered (unified) model:
 Part of a single-justice-based model's results:
 ![justice_based](/img/justice_based.png)
 
-Results for ensemble-based model:
+Results for ensemble-based model:                             
 ![ensemble_based](/img/ensemble_based.png)
 
 ## Note on Data Leakage
